@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MonkeyStudios</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/monkey-face.ico"/>
+  </head>
+  <body>
+    <div class="monkeyparticles bananaparticles"></div>
+    <main>
+      <header>
+        <img src="images/banana.webp" alt="banana-spin" class="banana banana-left bounce-animation">
+        <img src="images/banana-right4.webp" alt="banana-spin" class="banana banana-right bounce-animation">
+        <h4>Welcome to</h4>
+        <h1 class="animated-header monkey-studios_banner">
+          <span class="visually-hidden">Monkey Studios</span>
+          <img src="images/monkey-studios_banner-anim2.gif" alt="Monkey Studios banner animation">
+        </h1>
+      </header>
+      
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="#hero">Home</a>
+          <a href="#links">Links</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#testimonials">Quotes</a>
+          <a href="#stats">Stats</a>
+          <a href="#contact">Contact</a>
+          <!-- <button id="theme-toggle">Toggle Theme</button> -->
+        </div>
+      </nav>
+
+      <section class="hero animate-on-scroll" id="hero">
+        <strong>
+          <h1>Very Professional Mods, Code, and Artwork</h1>
+        </strong>
+        <p>Creating Stuff and Eating Bananners!</p>
+        <a href="#projects" class="cta-button">See My Work!</a>
+        <a href="#projects" class="arrow-down"></a>
+      </section>
+
+      <section class="links animate-on-scroll" id="links">
+        <a href="https://github.com/BeastSlayer666" target="_blank" class="card github">
+          <h2><img src="icons/github.svg" alt="GitHub Logo" class="icon">GitHub</h2>
+          <p>Check out my really bad open-source code!</p>
+        </a>
+        <a href="https://www.curseforge.com/members/beast135/projects" target="_blank" class="card curseforge">
+          <h2><img src="icons/curseforge.svg" alt="CurseForge logo" class="icon">CurseForge</h2>
+          <p>I host my work on CurseForge! Go check it out.</p>
+        </a>
+        <a href="https://modrinth.com/user/Beast135" target="_blank" class="card modrinth">
+          <h2><img src="icons/modrinth.svg" alt="Modrinth Logo" class="icon">Modrinth</h2>
+          <p>I also host on Modrinth's open-source platform.</p>
+        </a>
+      </section>
+
+      <section class="about animate-on-scroll" id="about">
+        <h2>About Monkey Studios</h2>
+        <p>
+          Monkey Studios began with a simple idea to make a mockup website and evolved into a small showcase of projects I’ve made, 
+          Monkey Studios creates playful, <s>bananatastic</s> okay code, with a little monkey buisness 🍌.
+          From Minecraft mods to this website, it's monkey ran and powered by brute force and caffeine.
+        </p>
+      </section>
+
+      <section class="projects animate-on-scroll" id="projects">
+        <h2>Featured Projects</h2>
+
+        <!-- <div class="project-filters">
+          <button data-filter="all">All</button>
+          <button data-filter="mod">Mods</button>
+          <button data-filter="pack">Resource Packs</button>
+        </div> -->
+        
+        <div class="project-grid">
+          <div class="project-card">
+            <h3>Marigolds <img src="project-images/marigolds.png" alt="marigolds"></h3>
+            <p>Adds a new flower to the game, the marigold!</p>
+            <div class="project-links">
+              <a href="https://github.com/BeastSlayer666/Marigolds-Fabric-1.20.1" target="_blank">
+                <img src="icons/github.svg" alt="GitHub Logo" id="project-github">
+              </a>
+              <a href="https://www.curseforge.com/minecraft/mc-mods/marigolds" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/mod/marigolds" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Sharkbite Tulips <img src="project-images/sharkbite-tulips.png" alt="sharkbite-tulips"></h3>
+            <p>Adds shark-themed tulips! Great for shark and flower lovers!</p>
+            <div class="project-links">
+              <a href="https://www.curseforge.com/minecraft/mc-mods/sharkbite-tulips" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/mod/sharkbite-tulips" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Monkey Banners<img src="project-images/monkey-banners-icon.png" alt="monkey-banners-icon"></h3>
+            <p>Go bananas for monkey-themed banners!</p>
+            <div class="project-links">
+              <a href="https://github.com/BeastSlayer666/Monkey-Banners" target="_blank">
+                <img src="icons/github.svg" alt="GitHub Logo" id="project-github">
+              </a>
+              <a href="https://www.curseforge.com/minecraft/mc-mods/monkey-banners" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/mod/monkey-banners" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Bushy Round Blossoms<img src="project-images/bushy-round-blossoms.png" alt="bushy-round-blossoms"></h3>
+            <p>Gives spore blossoms a rounder, bushier look with more petals!</p>
+            <div class="project-links">
+              <a href="https://www.curseforge.com/minecraft/texture-packs/bushy-round-blossoms" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/resourcepack/bushy-round-blossoms" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Backpacked: World of Color<img src="project-images/backpacked-woc.gif" alt="backpacked-woc"></h3>
+            <p>This is an add-on for Backpacked! Adds all 16 dyed variants to the Standard Backpack!</p>
+            <div class="project-links">
+              <a href="https://github.com/BeastSlayer666/Backpacked-World-of-Color" target="_blank">
+                <img src="icons/github.svg" alt="GitHub Logo" id="project-github">
+              </a>
+              <a href="https://www.curseforge.com/minecraft/mc-mods/backpacked-world-of-color" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/mod/backpacked-world-of-color" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Whiskers<img src="project-images/whiskers.png" alt="whiskers"></h3>
+            <p>Rename a Jellie variant cat "Whiskers" to unlock a new pattern!</p>
+            <div class="project-links">
+              <a href="https://www.curseforge.com/minecraft/texture-packs/whiskers" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/resourcepack/whiskers" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Marigold Rings<img src="project-images/marigold-rings.png" alt="marigold-rings"></h3>
+            <p>An add-on for Marigolds, adds marigold and cornflower flower rings to your world.</p>
+            <div class="project-links">
+              <a href="https://www.curseforge.com/minecraft/mc-mods/marigold-rings" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/datapack/marigold-rings" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Subtle Font Tweaks<img src="project-images/subtle-font-tweaks.png" alt="subtle-font-tweaks"></h3>
+            <p>This subtle font pack makes lowercase letters smaller and rounder and centers capitalized letters for a brand new feel.</p>
+            <div class="project-links">
+              <a href="https://www.curseforge.com/minecraft/texture-packs/subtle-font-tweaks" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/resourcepack/subtle-font-tweaks" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Ghostly Lowered Shields<img src="project-images/ghostly-lowered-shields.png" alt="ghostly-lowered-shields"></h3>
+            <p>Lowers shield and hides it in off-hand when not in use.</p>
+            <div class="project-links">
+              <a href="https://www.curseforge.com/minecraft/texture-packs/ghostly-pleasant-shields" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/resourcepack/ghostly-lowered-shields" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <h3>Marigold Tulips<img src="project-images/marigold-tulips.png" alt="marigold-tulips"></h3>
+            <p>Replaces the orange tulip with the marigold!</p>
+            <div class="project-links">
+              <a href="https://www.curseforge.com/minecraft/texture-packs/marigold-tulips" target="_blank">
+                <img src="icons/curseforge.svg" alt="CurseForge logo" id="project-curseforge">
+              </a>
+              <a href="https://modrinth.com/resourcepack/marigold-tulips" target="_blank">
+                <img src="icons/modrinth.svg" alt="Modrinth Logo" id="project-modrinth">
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials animate-on-scroll" id="testimonials">
+        <h2>What People Are Saying</h2>
+        <blockquote>“I really like this marigold flower so much” - DukeWiteque</blockquote>
+        <blockquote>“I just want you to know that I really love this mod." - Apicella111</blockquote>
+        <blockquote>“possible to get this woking with the flower patch mod?" - lunchboxxx19</blockquote>
+        <blockquote>"I like this mod." - pizzapuddingapples</blockquote>
+        <blockquote>"nice one" - prickly_kirch99</blockquote>
+        <blockquote>"forge please" - furrein</blockquote>
+      </section>
+
+      <section class="stats animate-on-scroll" id="stats">
+        <img src="images/banana.webp" alt="banana-spin" class="stat-banana stat-banana-left bounce-animation">
+        <img src="images/banana-right4.webp" alt="banana-spin" class="stat-banana stat-banana-right bounce-animation">
+        <div id="fun-banana-particles"></div>
+        <h2>Fun Stats</h2>
+        <div class="stat">
+          <span class="counter" data-target="79.930">0</span>K
+          <p>Total Downloads</p>
+          <h6>Thats gotta be worth so many Bananas!!!</h6>
+        </div>
+      </section>
+
+      <section id="contact" class="contact animate-on-scroll">
+        <h2>Contact</h2>
+        <p>DM me on <a href="https://www.curseforge.com/members/beast135" target="_blank">CurseForge</a> if you need to! 🍌</p>
+      </section>
+    </main>
+
+    <a href="#monkey" class="fab" title="Monkey!" onclick="playBananaSound()">
+      <img src="images/monkey-face10x.png" alt="Monkey" />
+    </a>
+
+    <section class="footer-snap">
+      <footer><img src="images/tiny-monkey-face.png" alt="tiny monkey face"> © 2025 MonkeyStudios — Powered by bananas 🍌 <h6>(but mostly Red Bull🔴🐂 and Dr Pepper Zero🩺🌶️0️)</h6></footer>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
